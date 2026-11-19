@@ -111,7 +111,7 @@ export function AboutPanel() {
         <div className="about-panel__photo gable" data-reveal style={d(150)}>
           <Image
             src={ordners}
-            alt="Karin houdt een gele en een blauwe ordner vast"
+            alt="Karin Kouwenhoven met een gele en een blauwe ordner in haar armen"
             sizes="(max-width: 899px) 86vw, 38vw"
             placeholder="blur"
           />
@@ -213,10 +213,9 @@ export function PricingFields({ withHead = true, headingLevel = 2 }: { withHead?
             Je levert je administratie aan in een map en ik neem het digitaliseren van je over. Het digitaal invoeren
             van inkoopbonnen en facturen is extra service, en dat nemen we mee in het voorstel.
           </p>
+          <p className="field__price">Op maat</p>
           <div className="field__foot">
-            <p className="field__price">
-              Op maat<small>per maand of per kwartaal</small>
-            </p>
+            <p className="field__period">Een inschatting per maand of per kwartaal</p>
             <Link href="/contact#formulier" className="btn btn--light">
               Bespreek jouw situatie
             </Link>
@@ -231,10 +230,9 @@ export function PricingFields({ withHead = true, headingLevel = 2 }: { withHead?
             Je levert alles digitaal aan en ik controleer en werk je boekhouding wekelijks bij, inclusief je
             btw-aangifte per maand of kwartaal.
           </p>
+          <p className="field__price">Op maat</p>
           <div className="field__foot">
-            <p className="field__price">
-              Op maat<small>per maand of per kwartaal</small>
-            </p>
+            <p className="field__period">Een inschatting per maand of per kwartaal</p>
             <Link href="/contact#formulier" className="btn btn--ink">
               Bespreek jouw situatie
             </Link>
